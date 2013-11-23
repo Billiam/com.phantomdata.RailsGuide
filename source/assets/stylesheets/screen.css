@@ -5,6 +5,7 @@ body {
 #content {
   letter-spacing: 0.02em;
   font-size: 1.15em;
+  margin-bottom: 64px;
   margin-top: 100px;  
 }
 #content code {
@@ -29,4 +30,16 @@ body {
   background-color: #fff;
   border-radius: 5px;
   padding: 25px 45px 25px 45px;
+}
+.navbar-right .btn {
+  max-height: 25px;
+  line-height: 0px;
+  margin-top: 10px;
+}
+.navbar-right a.btn {
+  color: white !important;
+}
+.navbar-right a.btn:hover {
+  background-color: #5cb85c !important;
+  border-color: #4cae4c !important;
 }
