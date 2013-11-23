@@ -1,10 +1,10 @@
-# Information
+# Getting Started
 
 This is a base getting started guide to help you with installing Ruby and Rails properly for the first time.  Many systems ship with a pre-installed version of Ruby that you should just stay away from.  It might seem to work at first, but you will find yourself in a world of hurt down the line.
 
-# Setting Up Your System
+## Setting Up Your System
 
-## Linux (Recommended: Ubuntu or Debian)
+### Linux (Recommended: Ubuntu or Debian)
 
 * First install the the core software for developing on a Linux machine:
    `sudo apt-get install build-essential libssl-dev git subversion imagemagick libmagick-dev curl automake  libpcre3-dev bison libmysqlclient-dev libxslt-dev libpq-dev libreadline-dev libyaml-dev libcurl4-openssl-dev postgresql postgresql-server-dev-9.1 git nodejs`
@@ -20,7 +20,7 @@ This is a base getting started guide to help you with installing Ruby and Rails 
   * Change to the desired Ruby:
       `chruby 2.0`
 
-## OSX Mavericks
+### OSX Mavericks
 
 * Go to the Apple Developer page, login with a dev account and download the Xcode Command Line Tools OR install them through Xcode if you've already gotten that
 * Install homebrew (http://brew.sh/) for funsies
@@ -39,7 +39,7 @@ This is a base getting started guide to help you with installing Ruby and Rails 
   * Change to the desired Ruby:
       `chruby 2.0`
 
-## Windows
+### Windows
 
 * Install VirtualBox (https://www.virtualbox.org/)
 * Download Ubuntu (http://ubuntulinux.org)
@@ -48,19 +48,19 @@ This is a base getting started guide to help you with installing Ruby and Rails 
 
 *See any Rails Committee Member for a pre-built VM*
 
-# Core Documentation
+## Core Documentation
 
 * [RailsGuides](http://guides.rubyonrails.org/)
    Rails has a fantastic set of core documentation.  From best practices and methods surrounding getting data from your database to validations to how to test your code; its all there in a clear well-laid out manner.
 
-# Gems You Should Use
+## Gems You Should Use
 
 * [Devise](https://github.com/plataformatec/devise)
   Opinions differ; but while you're learning - its best to push aside user authentication and get to the other stuff.  Devise lets you breeze right into it.
 * [Paperclip](https://github.com/thoughtbot/paperclip)
   Paperclip is the defacto standard for attaching files to models in Rails.  Like it or not, every application has file attachment in some way.  Some like CarrierWave, but Paperclip is the most popular and well documented.
 
-# Projects You Should Use
+## Projects You Should Use
 
 1. [Travis CI](http://travis-ci.org)
    As you're learning the Rails, testing should be foremost in your mind.  Alongside each round of figuring out how to do something; you should figure out how to write tests for it.  Once you've settled on a testing framework, its best to get it into Travis right away.  You're learning, right?  Don't lock that code away.  Put it on github, use Travis and accept feedback happily.
